@@ -1,0 +1,1160 @@
+.header-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: auto;
+  box-shadow: 5px 5px 10px 0px #737373;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.header-container {
+  width: 100%;
+  display: flex;
+  max-width: 1250px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-navlink {
+  display: contents;
+}
+.header-image {
+  width: 214px;
+  height: 65px;
+  text-decoration: none;
+}
+.header-nav {
+  display: flex;
+}
+.header-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.header-navlink1 {
+  text-decoration: none;
+}
+.header-navlink2 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.header-navlink3 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.header-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-login {
+  color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+  background-color: #d94a7d;
+}
+.header-register {
+  font-style: normal;
+  font-weight: 600;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: #ede114;
+}
+.header-burger-menu {
+  display: none;
+}
+.header-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.header-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.header-nav2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.header-image1 {
+  height: 2rem;
+}
+.header-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.header-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.header-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.header-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+
+
+
+
+@media(max-width: 767px) {
+  .header-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-nav1 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .header-navlink1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-btn-group {
+    display: none;
+  }
+  .header-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .header-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .header-image {
+    align-self: center;
+  }
+  .header-mobile-menu {
+    display: none;
+    padding: 16px;
+  }
+}
+
+.visit-us-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0.00%,rgba(0, 0, 0, 0.8) 98.00%),url('https://i.ibb.co/CHZFpKn/bgpage.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.visit-us-text {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  text-align: center;
+}
+.visit-us-text1 {
+  color: rgb(255, 255, 255);
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  line-height: 2;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.visit-us-link {
+  color: var(--dl-color-gray-black);
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-douche-yellow);
+}
+.visit-us-link:hover {
+  transform: scale(1.02);
+}
+
+
+
+@media(max-width: 991px) {
+  .visit-us-text1 {
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .visit-us-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .visit-us-text1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .visit-us-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
+
+.footer-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  align-self: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgb(254, 172, 94) 0.00%,rgb(199, 121, 208) 50.00%,rgb(75, 192, 200) 100.00%);
+}
+.footer-text {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+}
+.footer-root-class-name {
+  background-image: linear-gradient(90deg, rgb(217, 74, 125) 0.00%,rgb(97, 182, 82) 51.00%,rgb(237, 225, 20) 100.00%);
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .footer-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .footer-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .footer-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .footer-text {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.products-services-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.products-services-page-pricing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.products-services-page-container01 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: 1250px;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.products-services-page-container02 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+.products-services-page-text {
+  color: var(--dl-color-gray-black);
+}
+.products-services-page-text01 {
+  color: var(--dl-color-gray-black);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: left;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.products-services-page-container03 {
+  flex: 2;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.products-services-page-container04 {
+  flex: 1;
+  height: 450px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.8) 100.00%),url('https://i.ibb.co/CbhbJZG/rebond.webp');
+  background-position: bottom;
+}
+.products-services-page-container04:hover {
+  transform: scale(1.02);
+}
+.products-services-page-text04 {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+  font-weight: 600;
+}
+.products-services-page-button {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container05 {
+  flex: 1;
+  height: 450px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.8) 100.00%),url('https://i.ibb.co/C7KL7zJ/Organique-ICure.jpg');
+  background-position: bottom,bottom right;
+}
+.products-services-page-container05:hover {
+  transform: scale(1.02);
+}
+.products-services-page-text05 {
+  color: var(--dl-color-gray-white);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-button01 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-services {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 3.00%,rgba(0, 0, 0, 0.5) 100.00%),url('https://i.ibb.co/s5W5qXS/SlideD.jpg');
+}
+.products-services-page-container06 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: 1250px;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.products-services-page-container07 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.products-services-page-text06 {
+  color: var(--dl-color-gray-white);
+  font-size: 4em;
+}
+.products-services-page-container08 {
+  flex: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.products-services-page-container09 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/CbhbJZG/rebond.webp');
+  background-position: bottom;
+}
+.products-services-page-container09:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container10 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text09 {
+  color: var(--dl-color-gray-white);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.products-services-page-text10 {
+  color: var(--dl-color-gray-900);
+}
+.products-services-page-button02 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container11 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/pxWqpCQ/keratin.jpg');
+  background-position: bottom,right;
+}
+.products-services-page-container11:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container12 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text11 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-text12 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button03 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container13 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/Ph8S74M/haircolor.png');
+  background-position: bottom;
+}
+.products-services-page-container13:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container14 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text13 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.products-services-page-text14 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button04 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container15 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/qDZLzFd/Hair-treatment.jpg');
+  background-position: bottom;
+}
+.products-services-page-container15:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container16 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text17 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-text18 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button05 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container17 {
+  flex: 2;
+  width: 75%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.products-services-page-container18 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/CbhbJZG/rebond.webp');
+  background-position: bottom;
+}
+.products-services-page-container18:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container19 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text19 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-text20 {
+  color: var(--dl-color-gray-900);
+}
+.products-services-page-button06 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container20 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/pxWqpCQ/keratin.jpg');
+  background-position: bottom,right;
+}
+.products-services-page-container20:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container21 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text21 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-text24 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button07 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container22 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/Ph8S74M/haircolor.png');
+  background-position: bottom;
+}
+.products-services-page-container22:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container23 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text25 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.products-services-page-text26 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button08 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-products {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+.products-services-page-container24 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  max-width: 1250px;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+.products-services-page-container25 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.products-services-page-text29 {
+  color: var(--dl-color-gray-black);
+  font-size: 4em;
+}
+.products-services-page-container26 {
+  flex: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.products-services-page-container27 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/tY7YBKL/Organique.jpg');
+  background-position: bottom,right;
+}
+.products-services-page-container27:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container28 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text32 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-text33 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button09 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container29 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/C7KL7zJ/Organique-ICure.jpg');
+  background-position: bottom,right;
+}
+.products-services-page-container29:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container30 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text34 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-text35 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button10 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container31 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/tY7YBKL/Organique.jpg');
+  background-position: bottom,right;
+}
+.products-services-page-container31:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container32 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text36 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-text37 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button11 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.products-services-page-container33 {
+  flex: 1;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.6) 100.00%),url('https://i.ibb.co/C7KL7zJ/Organique-ICure.jpg');
+  background-position: bottom,right;
+}
+.products-services-page-container33:hover {
+  transform: scale(1.02);
+}
+.products-services-page-container34 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.products-services-page-text38 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.products-services-page-text39 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+}
+.products-services-page-button12 {
+  color: var(--dl-color-gray-white);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+@media(max-width: 991px) {
+  .products-services-page-container01 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .products-services-page-container02 {
+    align-items: center;
+  }
+  .products-services-page-text01 {
+    text-align: center;
+  }
+  .products-services-page-container03 {
+    width: 100%;
+  }
+  .products-services-page-container06 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .products-services-page-container07 {
+    align-items: center;
+  }
+  .products-services-page-container08 {
+    width: 100%;
+  }
+  .products-services-page-container17 {
+    width: 100%;
+  }
+  .products-services-page-container24 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .products-services-page-container25 {
+    align-items: center;
+  }
+  .products-services-page-container26 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .products-services-page-container01 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container03 {
+    flex-direction: column;
+  }
+  .products-services-page-container04 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container05 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container06 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container08 {
+    flex-direction: column;
+  }
+  .products-services-page-container09 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container11 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container13 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container15 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container17 {
+    flex-direction: column;
+  }
+  .products-services-page-container18 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container20 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container22 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container24 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container26 {
+    flex-direction: column;
+  }
+  .products-services-page-container27 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container29 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container31 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container33 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .products-services-page-container01 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container06 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .products-services-page-container24 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
